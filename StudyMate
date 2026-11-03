@@ -72,6 +72,8 @@ while True:
                 print("\nTask:", i)
                 print("Name:", task["name"])
                 print("Subject:", task["subject"])
+                print("Due Date:", task["due_date"])
+                print("Priority:", task["priority"])
                 print("Status:", status)
 
     elif choice == "3":
